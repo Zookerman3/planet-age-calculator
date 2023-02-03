@@ -37,19 +37,19 @@ describe("Person", () => {
     });
 
     test("should take the calculated age from ageMinusBirthday and return the number of years for Mercury ", () => {
-        expect(person.mercurySinceBDay(7)).toEqual(12)
+        expect(person.mercurySinceBDay(7)).toEqual(12);
     });
 
     test("should take the calculated age from ageMinusBirthday and return the number of Venus", () => {
-        expect(person.venusSinceBDay(7)).toEqual(4)
+        expect(person.venusSinceBDay(7)).toEqual(4);
     });
 
     test("should take the calculated age from ageMinusBirthday and return the number of Mars", () => {
-        expect(person.marsSinceBDay(7)).toEqual(1)
+        expect(person.marsSinceBDay(7)).toEqual(1);
     });
     
     test("should take the calculated age from ageMinusBirthday and return the number of Jupiter", () => {
-        expect(person.jupiterSinceBDay(7)).toEqual(91)
+        expect(person.jupiterSinceBDay(7)).toEqual(91);
     });
 
     test("should take the person.age property and find the difference between it and the timeToPass paramater", () => {
@@ -57,22 +57,22 @@ describe("Person", () => {
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Mercury ", () => {
-        expect(person.mercuryFutureAge(7)).toEqual(70)
+        expect(person.mercuryFutureAge(7)).toEqual(70);
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Venus", () => {
-        expect(person.venusFutureAge(7)).toEqual(27)
+        expect(person.venusFutureAge(7)).toEqual(27);
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Venus", () => {
-        expect(person.venusFutureAge(7)).toEqual(27)
+        expect(person.venusFutureAge(7)).toEqual(27);
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Mars", () => {
-        expect(person.marsFutureAge(7)).toEqual(9)
+        expect(person.marsFutureAge(7)).toEqual(9);
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Jupiter", () => {
-        expect(person.jupiterFutureAge(7)).toEqual(517)
+        expect(person.jupiterFutureAge(7)).toEqual(517);
     });
 })
