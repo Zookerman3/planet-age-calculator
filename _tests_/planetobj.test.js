@@ -41,7 +41,7 @@ describe("Person", () => {
     });
 
     test("should take the calculated age from ageMinusBirthday and return the number of Venus", () => {
-        expect(person.venusSinceBDay(7)).toEqual(12)
+        expect(person.venusSinceBDay(7)).toEqual(4)
     });
 
 })

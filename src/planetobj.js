@@ -34,11 +34,11 @@ export default class Person {
         return AgeDiffOnMer.mercuryAge();
     }
 
-    // mercurySinceBDay(pastBirthday){
-    //     let ageDiff = this.ageMinusBirthday(pastBirthday);
-    //     let AgeDiffOnVenus = new Person(ageDiff)
-    //     return AgeDiffOnVenus.venusAge();
-    // }
+    venusSinceBDay(pastBirthday){
+        let ageDiff = this.ageMinusBirthday(pastBirthday);
+        let AgeDiffOnVenus = new Person(ageDiff)
+        return AgeDiffOnVenus.venusAge();
+    }
 }
 
 
