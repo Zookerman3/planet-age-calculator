@@ -48,5 +48,7 @@ describe("Person", () => {
         expect(person.marsSinceBDay(7)).toEqual(1)
     });
     
-
+    test("should take the calculated age from ageMinusBirthday and return the number of Jupiter", () => {
+        expect(person.jupiterSinceBDay(7)).toEqual(1)
+    });
 })
