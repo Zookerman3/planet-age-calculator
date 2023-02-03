@@ -69,6 +69,6 @@ describe("Person", () => {
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Mars", () => {
-        expect(person.marsFutureAge(7)).toEqual(27)
+        expect(person.marsFutureAge(7)).toEqual(9)
     });
 })
