@@ -28,14 +28,11 @@ export default class Person {
         return ageDiff
     }
 
-    // mercurySinceBDay(){
-    //     let ageDiff = this.ageMinusBirthday(pastBirthday);
-        
-    // }
-  
-
-
-
+    mercurySinceBDay(pastBirthday){
+        let ageDiff = this.ageMinusBirthday(pastBirthday);
+        let AgeDiffOnMer = new Person(ageDiff)
+        return AgeDiffOnMer.mercuryAge();
+    }
 }
 
 
