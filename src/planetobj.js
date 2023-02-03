@@ -28,7 +28,11 @@ export default class Person {
         return ageDiff
     }
 
-
+    // mercurySinceBDay(){
+    //     let ageDiff = this.ageMinusBirthday(pastBirthday);
+        
+    // }
+  
 
 
 

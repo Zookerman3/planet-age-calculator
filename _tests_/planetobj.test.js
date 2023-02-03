@@ -36,6 +36,8 @@ describe("Person", () => {
         expect(person.ageMinusBirthday(7)).toEqual(3);
     });
 
-
+    test("should take the calculated age from ageMinusBirthday and return the number of Mercury ", () => {
+        expect(person.mercurySinceBDay(7)).toEqual(12)
+    })
 
 })
