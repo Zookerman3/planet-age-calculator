@@ -22,4 +22,10 @@ describe("planetAge", () => {
         marsAge();
         expect(marsAge()).toEqual(5);
     });
+
+    test("should take the person.age property and calculate the person age on Jupiter by multiplying the age by 365 then divide that number by 12", () => {
+        jupitersAge();
+        expect(jupiterAge()).toEqual(5);
+    });
+
 })
