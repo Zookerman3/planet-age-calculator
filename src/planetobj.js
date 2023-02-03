@@ -39,6 +39,12 @@ export default class Person {
         let AgeDiffOnVenus = new Person(ageDiff)
         return AgeDiffOnVenus.venusAge();
     }
+
+    marsSinceBDay(pastBirthday){
+        let ageDiff = this.ageMinusBirthday(pastBirthday);
+        let AgeDiffOnMars = new Person(ageDiff)
+        return AgeDiffOnMars.marsAge();
+    }
 }
 
 
