@@ -6,8 +6,8 @@ export class Person {
 
 export function mercuryAge(){
     let person = new Person(10);
-    let mAge = (person.age * 365) / (88)
-    return Math.floor(mAge);
+    let mercAge = (person.age * 365) / (88)
+    return Math.floor(mercAge);
 }
 
 export function venusAge(){
@@ -20,4 +20,10 @@ export function marsAge(){
     let person = new Person(10);
     let marAge = (person.age * 365) / (687)
     return Math.floor(marAge);
+}
+
+export function jupiterAge(){
+    let person = new Person(10);
+    let jAge = (person.age * 365) / (12)
+    return Math.floor(jAge);
 }
