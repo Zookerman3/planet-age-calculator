@@ -45,6 +45,12 @@ export default class Person {
         let AgeDiffOnMars = new Person(ageDiff)
         return AgeDiffOnMars.marsAge();
     }
+
+    jupiterSinceBDay(pastBirthday){
+        let ageDiff = this.ageMinusBirthday(pastBirthday);
+        let AgeDiffOnJup = new Person(ageDiff)
+        return AgeDiffOnJup.jupiterAge();
+    }
 }
 
 
