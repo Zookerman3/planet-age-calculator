@@ -33,6 +33,12 @@ export default class Person {
         let AgeDiffOnMer = new Person(ageDiff)
         return AgeDiffOnMer.mercuryAge();
     }
+
+    // mercurySinceBDay(pastBirthday){
+    //     let ageDiff = this.ageMinusBirthday(pastBirthday);
+    //     let AgeDiffOnVenus = new Person(ageDiff)
+    //     return AgeDiffOnVenus.venusAge();
+    // }
 }
 
 

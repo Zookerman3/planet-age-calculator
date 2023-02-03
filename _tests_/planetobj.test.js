@@ -36,8 +36,12 @@ describe("Person", () => {
         expect(person.ageMinusBirthday(7)).toEqual(3);
     });
 
-    test("should take the calculated age from ageMinusBirthday and return the number of Mercury ", () => {
+    test("should take the calculated age from ageMinusBirthday and return the number of years for Mercury ", () => {
         expect(person.mercurySinceBDay(7)).toEqual(12)
+    });
+
+    test("should take the calculated age from ageMinusBirthday and return the number of Venus", () => {
+        expect(person.venusSinceBDay(7)).toEqual(12)
     });
 
 })
