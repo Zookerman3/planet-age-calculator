@@ -62,6 +62,18 @@ export default class Person {
         let AgeDiffOnMer = new Person(ageDiff)
         return AgeDiffOnMer.mercuryAge();
     }
+
+    venusFutureAge(futureTime){
+        let ageDiff = this.timeToPass(futureTime);
+        let AgeDiffOnVen = new Person(ageDiff)
+        return AgeDiffOnVen.venusAge();
+    }
+
+    // marsFutureAge(futureTime){
+    //     let ageDiff = this.timeToPass(futureTime);
+    //     let AgeDiffOnMars = new Person(ageDiff)
+    //     return AgeDiffOnMars.marsAge();
+    // }
 }
 
 
