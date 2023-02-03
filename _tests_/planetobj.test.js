@@ -1,4 +1,4 @@
-import { Person, mercuryAge, venusAge, marsAge, jupiterAge } from "../src/planetobj";
+import { Person, mercuryAge, venusAge, marsAge, jupiterAge, AgeMinusBirthday } from "../src/planetobj";
 
 
 describe("Person", () => {
@@ -28,4 +28,12 @@ describe("planetAge", () => {
         expect(jupiterAge()).toEqual(304);
     });
 
+
+    describe("AgeMinusBirthday", () => {
+        test("should take the person.age property and find the difference between it and the AgeMinusBirthday paramater", () =>{
+            let person = new Person(23);
+            AgeMinusBirthday(7);
+            expect(AgeMinusBirthday(7)).toEqual(16);
+        });
+    });
 })

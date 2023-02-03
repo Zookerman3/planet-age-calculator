@@ -27,3 +27,9 @@ export function jupiterAge(){
     let jAge = (person.age * 365) / (12)
     return Math.floor(jAge);
 }
+
+// export function AgeMinusBirthday(pastBirthday){
+//     let person = new Person(23)
+//     let ageDiff = (person.age - pastBirthday)
+//     return ageDiff
+// }
