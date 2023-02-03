@@ -1,4 +1,4 @@
-import { Person, mercuryAge, venusAge } from "../src/planetobj";
+import { Person, mercuryAge, venusAge, marsAge } from "../src/planetobj";
 
 
 describe("Person", () => {
@@ -19,7 +19,7 @@ describe("planetAge", () => {
         expect(venusAge()).toEqual(16);
     });
     test("should take the person.age property and calculate the person age on Mars by multiplying the age by 365 then divide that number by 687", () => {
-        marssAge();
-        expect(marsAge()).toEqual(16);
+        marsAge();
+        expect(marsAge()).toEqual(5);
     });
 })

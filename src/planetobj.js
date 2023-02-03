@@ -16,8 +16,8 @@ export function venusAge(){
     return Math.floor(vAge);
 }
 
-// export function marsAge(){
-//     let person = new Person(10);
-//     let marAge = (person.age * 365) / (225)
-//     return Math.floor(marAge);
-// }
+export function marsAge(){
+    let person = new Person(10);
+    let marAge = (person.age * 365) / (687)
+    return Math.floor(marAge);
+}
