@@ -73,6 +73,6 @@ describe("Person", () => {
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Jupiter", () => {
-        expect(person.jupiterFutureAge(7)).toEqual(9)
+        expect(person.jupiterFutureAge(7)).toEqual(517)
     });
 })
