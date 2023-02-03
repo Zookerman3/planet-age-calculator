@@ -1,12 +1,11 @@
-export class Person {
+export default class Person {
     constructor(age){
         this.age = age;
     }
     
-    mercuryAge(){
-        let person = new Person(10);
-        let mercAge = (person.age * 365) / (88)
-        return Math.floor(mercAge);
+    mercuryAge() {
+        let merAge = (this.age * 365) / (88)
+        return Math.floor(merAge)
     }
     
     venusAge(){
