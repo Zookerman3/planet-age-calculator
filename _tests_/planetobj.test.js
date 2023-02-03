@@ -51,4 +51,9 @@ describe("Person", () => {
     test("should take the calculated age from ageMinusBirthday and return the number of Jupiter", () => {
         expect(person.jupiterSinceBDay(7)).toEqual(91)
     });
+
+    test("should take the person.age property and find the difference between it and the timeToPass paramater", () => {
+        expect(person.timeToPass(7)).toEqual(17);
+    });
+
 })
