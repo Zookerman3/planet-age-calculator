@@ -71,4 +71,8 @@ describe("Person", () => {
     test("should take the calculated age from timeToPass and return the number of years for Mars", () => {
         expect(person.marsFutureAge(7)).toEqual(9)
     });
+
+    test("should take the calculated age from timeToPass and return the number of years for Jupiter", () => {
+        expect(person.jupiterFutureAge(7)).toEqual(9)
+    });
 })
