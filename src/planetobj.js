@@ -57,8 +57,8 @@ export default class Person {
         return ageDiff
     }
 
-    mercuryFuture(pastBirthday){
-        let ageDiff = this.ageMinusBirthday(pastBirthday);
+    mercuryFutureAge(futureTime){
+        let ageDiff = this.timeToPass(futureTime);
         let AgeDiffOnMer = new Person(ageDiff)
         return AgeDiffOnMer.mercuryAge();
     }

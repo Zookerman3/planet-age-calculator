@@ -57,7 +57,7 @@ describe("Person", () => {
     });
 
     test("should take the calculated age from timeToPass and return the number of years for Mercury ", () => {
-        expect(person.mercuryFutureAge(7)).toEqual(12)
+        expect(person.mercuryFutureAge(7)).toEqual(70)
     });
 
 })
