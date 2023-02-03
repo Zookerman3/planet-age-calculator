@@ -51,6 +51,12 @@ export default class Person {
         let AgeDiffOnJup = new Person(ageDiff)
         return AgeDiffOnJup.jupiterAge();
     }
+
+    timeToPass(futureTime){
+        let ageDiff = (this.age + futureTime)
+        return ageDiff
+    }
+
 }
 
 
