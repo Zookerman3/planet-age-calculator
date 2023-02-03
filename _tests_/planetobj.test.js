@@ -8,10 +8,15 @@ describe("Person", () => {
     });
 });
 
-describe("mercuryAge", () => {
-    test("should take the person.age property and calculate the person age by multiplying the age by 365 then divide that number by 88", () => {
-        let person= new Person(10);
-        mercuryAge()
-        expect(mercuryAge()).toEqual(41)
-    })
+describe("planetAge", () => {
+    test("should take the person.age property and calculate the person age on Mercury by multiplying the age by 365 then divide that number by 88", () => {
+        mercuryAge();
+        expect(mercuryAge()).toEqual(41);
+    });
+
+    test("should take the person.age property and calculate the person age on Venus by multiplying the age by 365 then divide that number by 225", () => {
+        venusAge();
+        expect(venusAge()).toEqual(41);
+    });
+
 })
