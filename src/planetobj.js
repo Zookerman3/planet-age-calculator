@@ -28,8 +28,8 @@ export function jupiterAge(){
     return Math.floor(jAge);
 }
 
-// export function AgeMinusBirthday(pastBirthday){
-//     let person = new Person(23)
-//     let ageDiff = (person.age - pastBirthday)
-//     return ageDiff
-// }
+export function AgeMinusBirthday(pastBirthday){
+    let person = new Person(23)
+    let ageDiff = (person.age - pastBirthday)
+    return ageDiff
+}
